@@ -1,0 +1,2 @@
+2020-06-17 00:04:20 INFO  MyApplicationController:64 - Inside Controller Class and method of Encode User called
+2020-06-17 00:04:21 INFO  EncryptUserServiceImpl:109 - Encoded User Successfully with user Name Pavan toK7Cn/1j42Ght5gS9mRsmYQ==

@@ -1,0 +1,102 @@
+2020-06-17 00:07:41 INFO  MyApplicationController:64 - Inside Controller Class and method of Encode User called
+2020-06-17 00:07:42 INFO  EncryptUserServiceImpl:109 - Encoded User Successfully with user Name Pavan toK7Cn/1j42Ght5gS9mRsmYQ==
+2020-06-17 00:08:11 INFO  MyApplicationController:49 - Inside Controller Class and method of Decode User called
+2020-06-17 00:08:11 INFO  EncryptUserServiceImpl:74 - Decoded User Successfully with user Name K7Cn/1j42Ght5gS9mRsmYQ== toPavan
+2020-06-17 00:12:28 INFO  MyApplicationController:79 - Inside Controller Class and method of Search User by keywords called
+2020-06-17 00:12:28 INFO  EncryptUserServiceImpl:89 - Found Users Successfully with Pattern Ra
+2020-06-17 00:26:49 INFO  MyApplicationController:35 - Inside Controller Class and method of Add User called
+2020-06-17 00:26:49 INFO  EncryptUserServiceImpl:55 - Added Users Successfully with user Id 1
+2020-06-17 10:25:24 INFO  MyApplicationController:35 - Inside Controller Class and method of Add User called
+2020-06-17 10:25:24 INFO  EncryptUserServiceImpl:55 - Added Users Successfully with user Id 2
+2020-06-17 10:26:09 INFO  MyApplicationController:64 - Inside Controller Class and method of Encode User called
+2020-06-17 10:26:10 INFO  EncryptUserServiceImpl:109 - Encoded User Successfully with user Name gupta to 0epo9QqNsDO2f7bv06U7KQ==
+2020-06-17 10:26:43 INFO  MyApplicationController:49 - Inside Controller Class and method of Decode User called
+2020-06-17 10:26:43 INFO  EncryptUserServiceImpl:74 - Decoded User Successfully with user Name 0epo9QqNsDO2f7bv06U7KQ== to gupta
+2020-06-17 10:31:15 INFO  MyApplicationController:64 - Inside Controller Class and method of Encode User called
+2020-06-17 10:31:16 INFO  EncryptUserServiceImpl:109 - Encoded User Successfully with user Name Ram to xXqtrcwDQE/hPmIgFn7PuQ==
+2020-06-17 10:31:30 INFO  MyApplicationController:64 - Inside Controller Class and method of Encode User called
+2020-06-17 10:31:30 INFO  EncryptUserServiceImpl:109 - Encoded User Successfully with user Name Raja to 2HobEWeee38rIdh1x6+euQ==
+2020-06-17 10:31:44 INFO  MyApplicationController:64 - Inside Controller Class and method of Encode User called
+2020-06-17 10:31:44 INFO  EncryptUserServiceImpl:109 - Encoded User Successfully with user Name gupta to 0epo9QqNsDO2f7bv06U7KQ==
+2020-06-17 10:31:59 INFO  MyApplicationController:64 - Inside Controller Class and method of Encode User called
+2020-06-17 10:31:59 INFO  EncryptUserServiceImpl:109 - Encoded User Successfully with user Name pavan to I8nBCLxqjCl47ARLorAi+Q==
+2020-06-17 10:32:39 INFO  MyApplicationController:49 - Inside Controller Class and method of Decode User called
+2020-06-17 10:32:39 INFO  EncryptUserServiceImpl:74 - Decoded User Successfully with user Name I8nBCLxqjCl47ARLorAi+Q== to pavan
+2020-06-17 10:32:58 INFO  MyApplicationController:79 - Inside Controller Class and method of Search User by keywords called
+2020-06-17 10:32:58 INFO  EncryptUserServiceImpl:91 - No Users Found with Pattern R
+2020-06-17 10:33:05 INFO  MyApplicationController:79 - Inside Controller Class and method of Search User by keywords called
+2020-06-17 10:33:05 INFO  EncryptUserServiceImpl:91 - No Users Found with Pattern Ra
+2020-06-17 10:34:51 INFO  MyApplicationController:35 - Inside Controller Class and method of Add User called
+2020-06-17 10:34:51 INFO  EncryptUserServiceImpl:55 - Added Users Successfully with user Id 1
+2020-06-17 10:35:04 INFO  MyApplicationController:35 - Inside Controller Class and method of Add User called
+2020-06-17 10:35:04 INFO  EncryptUserServiceImpl:55 - Added Users Successfully with user Id 2
+2020-06-17 10:35:23 INFO  MyApplicationController:35 - Inside Controller Class and method of Add User called
+2020-06-17 10:35:23 INFO  EncryptUserServiceImpl:55 - Added Users Successfully with user Id 3
+2020-06-17 10:35:53 INFO  MyApplicationController:35 - Inside Controller Class and method of Add User called
+2020-06-17 10:35:53 INFO  EncryptUserServiceImpl:55 - Added Users Successfully with user Id 4
+2020-06-17 10:36:15 INFO  MyApplicationController:35 - Inside Controller Class and method of Add User called
+2020-06-17 10:36:15 INFO  EncryptUserServiceImpl:55 - Added Users Successfully with user Id 5
+2020-06-17 10:36:29 INFO  MyApplicationController:35 - Inside Controller Class and method of Add User called
+2020-06-17 10:36:29 INFO  EncryptUserServiceImpl:55 - Added Users Successfully with user Id 6
+2020-06-17 10:36:52 INFO  MyApplicationController:79 - Inside Controller Class and method of Search User by keywords called
+2020-06-17 10:36:52 INFO  EncryptUserServiceImpl:89 - Found Users Successfully with Pattern Ra
+2020-06-17 10:37:07 INFO  MyApplicationController:79 - Inside Controller Class and method of Search User by keywords called
+2020-06-17 10:37:07 INFO  EncryptUserServiceImpl:89 - Found Users Successfully with Pattern Raj
+2020-06-17 11:05:19 INFO  MyApplicationController:69 - Inside Controller Class and method of Encode User called
+2020-06-17 11:07:02 INFO  MyApplicationController:69 - Inside Controller Class and method of Encode User called
+2020-06-17 11:16:02 INFO  MyApplicationController:70 - Inside Controller Class and method of Encode User called
+2020-06-17 11:16:14 INFO  MyApplicationController:70 - Inside Controller Class and method of Encode User called
+2020-06-17 11:16:31 INFO  MyApplicationController:55 - Inside Controller Class and method of Decode User called
+2020-06-17 11:16:40 INFO  MyApplicationController:55 - Inside Controller Class and method of Decode User called
+2020-06-17 11:20:36 INFO  MyApplicationController:42 - Inside Controller Class and method of Add User called
+2020-06-17 11:20:36 INFO  EncryptUserServiceImpl:58 - Added Users Successfully with user Id 7
+2020-06-17 11:20:48 INFO  MyApplicationController:42 - Inside Controller Class and method of Add User called
+2020-06-17 11:20:48 INFO  EncryptUserServiceImpl:58 - Added Users Successfully with user Id 8
+2020-06-17 11:21:03 INFO  MyApplicationController:56 - Inside Controller Class and method of Decode User called
+2020-06-17 11:22:36 INFO  MyApplicationController:42 - Inside Controller Class and method of Add User called
+2020-06-17 11:22:49 INFO  MyApplicationController:42 - Inside Controller Class and method of Add User called
+2020-06-17 11:26:26 INFO  MyApplicationController:71 - Inside Controller Class and method of Encode User called
+2020-06-17 11:26:34 INFO  MyApplicationController:71 - Inside Controller Class and method of Encode User called
+2020-06-17 11:26:44 INFO  MyApplicationController:71 - Inside Controller Class and method of Encode User called
+2020-06-17 11:28:49 INFO  MyApplicationController:42 - Inside Controller Class and method of Add User called
+2020-06-17 11:29:00 INFO  MyApplicationController:42 - Inside Controller Class and method of Add User called
+2020-06-17 11:56:20 INFO  MyApplicationController:42 - Inside Controller Class and method of Add User called
+2020-06-17 11:56:20 INFO  EncryptUserServiceImpl:68 - Added Users Successfully with user Id 9
+2020-06-17 11:57:07 INFO  MyApplicationController:42 - Inside Controller Class and method of Add User called
+2020-06-17 11:57:15 INFO  MyApplicationController:42 - Inside Controller Class and method of Add User called
+2020-06-17 11:57:23 INFO  MyApplicationController:42 - Inside Controller Class and method of Add User called
+2020-06-17 12:06:00 INFO  MyApplicationController:71 - Inside Controller Class and method of Encode User called
+2020-06-17 12:06:06 INFO  MyApplicationController:71 - Inside Controller Class and method of Encode User called
+2020-06-17 12:07:20 INFO  MyApplicationController:71 - Inside Controller Class and method of Encode User called
+2020-06-17 12:07:21 INFO  MyApplicationController:71 - Inside Controller Class and method of Encode User called
+2020-06-17 12:07:55 INFO  MyApplicationController:71 - Inside Controller Class and method of Encode User called
+2020-06-17 12:07:56 INFO  EncryptUserServiceImpl:149 - Encoded User Successfully with user Name           to jJf2TZutTYn2zmfejCWDYg==
+2020-06-17 12:09:54 INFO  MyApplicationController:71 - Inside Controller Class and method of Encode User called
+2020-06-17 12:10:13 INFO  MyApplicationController:71 - Inside Controller Class and method of Encode User called
+2020-06-17 12:28:19 INFO  MyApplicationController:71 - Inside Controller Class and method of Encode User called
+2020-06-17 12:28:31 INFO  MyApplicationController:71 - Inside Controller Class and method of Encode User called
+2020-06-17 12:28:31 INFO  EncryptUserServiceImpl:150 - Encoded User Successfully with user Name           to jJf2TZutTYn2zmfejCWDYg==
+2020-06-17 12:28:35 INFO  MyApplicationController:71 - Inside Controller Class and method of Encode User called
+2020-06-17 12:28:35 INFO  EncryptUserServiceImpl:150 - Encoded User Successfully with user Name           to jJf2TZutTYn2zmfejCWDYg==
+2020-06-17 12:28:53 INFO  MyApplicationController:71 - Inside Controller Class and method of Encode User called
+2020-06-17 12:29:04 INFO  MyApplicationController:71 - Inside Controller Class and method of Encode User called
+2020-06-17 12:29:04 INFO  EncryptUserServiceImpl:150 - Encoded User Successfully with user Name   to l8tc7XMGFexBc4Oy82vayA==
+2020-06-17 12:32:41 INFO  MyApplicationController:71 - Inside Controller Class and method of Encode User called
+2020-06-17 12:32:41 INFO  EncryptUserServiceImpl:150 - Encoded User Successfully with user Name  to pgIRcZeJzibQz42+A/1xfw==
+2020-06-17 12:33:46 INFO  MyApplicationController:71 - Inside Controller Class and method of Encode User called
+2020-06-17 12:33:56 INFO  MyApplicationController:71 - Inside Controller Class and method of Encode User called
+2020-06-17 12:38:17 INFO  MyApplicationController:71 - Inside Controller Class and method of Encode User called
+2021-01-21 21:56:02 INFO  MyApplicationController:54 - Inside Controller Class and method of Add User called
+2021-01-21 21:56:02 INFO  EncryptUserServiceImpl:68 - Added Users Successfully with user Id 10
+2021-01-21 21:56:29 INFO  MyApplicationController:68 - Inside Controller Class and method of Decode User called
+2021-01-21 21:56:30 INFO  EncryptUserServiceImpl:99 - Decoded User Successfully with user Name Ram to null
+2021-01-21 21:56:47 INFO  MyApplicationController:83 - Inside Controller Class and method of Encode User called
+2021-01-21 21:56:47 INFO  EncryptUserServiceImpl:150 - Encoded User Successfully with user Name Ram to xXqtrcwDQE/hPmIgFn7PuQ==
+2021-01-21 21:57:11 INFO  MyApplicationController:68 - Inside Controller Class and method of Decode User called
+2021-01-21 21:57:11 INFO  EncryptUserServiceImpl:99 - Decoded User Successfully with user Name Ram to null
+2021-01-21 21:57:35 INFO  MyApplicationController:83 - Inside Controller Class and method of Encode User called
+2021-01-21 21:57:35 INFO  EncryptUserServiceImpl:150 - Encoded User Successfully with user Name xXqtrcwDQE/hPmIgFn7PuQ== to hMv53CLYkhUqBzx/M6RNM1FW38dz6bR+cZTOINDQRpY=
+2021-01-21 21:57:51 INFO  MyApplicationController:68 - Inside Controller Class and method of Decode User called
+2021-01-21 21:57:51 INFO  EncryptUserServiceImpl:99 - Decoded User Successfully with user Name xXqtrcwDQE/hPmIgFn7PuQ== to Ram
+2021-01-21 21:58:05 INFO  MyApplicationController:97 - Inside Controller Class and method of Search User by keywords called
+2021-01-21 21:58:05 INFO  EncryptUserServiceImpl:117 - Found Users Successfully with Pattern Ra
