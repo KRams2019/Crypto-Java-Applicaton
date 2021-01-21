@@ -100,3 +100,5 @@
 2021-01-21 21:57:51 INFO  EncryptUserServiceImpl:99 - Decoded User Successfully with user Name xXqtrcwDQE/hPmIgFn7PuQ== to Ram
 2021-01-21 21:58:05 INFO  MyApplicationController:97 - Inside Controller Class and method of Search User by keywords called
 2021-01-21 21:58:05 INFO  EncryptUserServiceImpl:117 - Found Users Successfully with Pattern Ra
+2021-01-21 23:52:25 INFO  MyApplicationController:93 - Inside Controller Class and method of Search User by keywords called
+2021-01-21 23:52:25 INFO  EncryptUserServiceImpl:117 - Found Users Successfully with Pattern ra

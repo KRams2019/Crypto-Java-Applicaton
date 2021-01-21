@@ -1,11 +1,5 @@
 package com.example.demo.controller;
 
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 import org.apache.log4j.Logger;
@@ -15,9 +9,9 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestParam;
+
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.multipart.MultipartFile;
+
 
 import com.example.demo.apiResponse.ApiResponse;
 import com.example.demo.dto.UserDto;
@@ -33,10 +27,6 @@ import com.example.demo.service.EncryptUserService;
 @RestController("/encryption")
 public class MyApplicationController {
 	
-	
-
-	private static String UPLOADED_FOLDER = "C://Users//M1056279//Desktop//";
-	private final Path root = Paths.get(UPLOADED_FOLDER);
 	public final static Logger log = Logger.getLogger(MyApplicationController.class.getName());
 
 	@Autowired
@@ -99,58 +89,5 @@ public class MyApplicationController {
 		return new ResponseEntity<ApiResponse>(new ApiResponse("Encode User", false, encodeUser, HttpStatus.OK),
 				HttpStatus.OK);
 	}
-	
-	
-	 @PostMapping("/upload") // //new annotation since 4.3
-	    public String singleFileUpload(@RequestParam("file") MultipartFile file) {
-
-	        if (file.isEmpty()) {
-	           System.out.println("File Empty");
-	        }
-
-	        try {
-
-	            // Get the file and save it somewhere
-	            byte[] bytes = file.getBytes();
-	            System.out.println(bytes);
-	            Path path = Paths.get(UPLOADED_FOLDER + file.getOriginalFilename());
-	            Files.write(path, bytes);
-
-	           System.out.println("Done Man");
-
-	        } catch (IOException e) {
-	            e.printStackTrace();
-	        }
-
-	        return "aaa";
-	    }
-	 
-	 @PostMapping("/upload/multi") // //new annotation since 4.3
-	 public String uploadFiles(@RequestParam("files") MultipartFile[] files) {
-		    String message = "Anandum";
-		    try {
-		      List<String> fileNames = new ArrayList<>();
-
-		      Arrays.asList(files).stream().forEach(file -> {
-		        save(file);
-		        fileNames.add(file.getOriginalFilename());
-		      });
-
-		      message = "Uploaded the files successfully: " + fileNames;
-		      return "sss";
-		    } catch (Exception e) {
-		      message = "Fail to upload files!";
-		      return "eee";
-		    }
-		  }
-	 
-	 
-	 public void save(MultipartFile file) {
-		    try {
-		      Files.copy(file.getInputStream(), this.root.resolve(file.getOriginalFilename()));
-		    } catch (Exception e) {
-		      throw new RuntimeException("Could not store the file. Error: " + e.getMessage());
-		    }
-		  }
-
+		
 }
